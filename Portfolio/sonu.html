@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu-Portfolio</title>
+    <link rel="stylesheet" href="sonu.css">
+    <script src="https://kit.fontawesome.com/6bfe872681.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="sonu_logo.jpeg" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>FrontEnd Developer</p>
+            <h1>Hiii, This is Sonu <span>Kumar</span><br> Pursuing B.Tech From SRIMT, Lucknow</h1>
+            <p>
+        </div>
+    </div>
+   </div>
+
+   <!-- ---------------------about----------------------- -->
+
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="profile_pic.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, My Name is SONU KUMAR and I'm from Bihar.Currently I'm pursing my B.tech in Cmputer science & Engineering from SRIMT, Lucknow.Recently I have completed my summer training from Techgyan Technologies from where i achieved Project Appreciation certificate and now i'm started to doing an internship in Webconvoy pvt. Ltd as a Full Stack Web Developer.My hobby is to Drawing a painting and Travelling.  </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Developer</span><br>Web App Development</li>
+                        <li><span>App Developer</span><br>Building Android/IOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2020-2021</span><br>Web development training from Techgyan</li>
+                        <li><span>2021-2022</span><br>Internship at Webconvoy Pvt Ltd</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2017</span><br>passing High school with 82%</li>
+                        <li><span>2019</span><br>Passing Intermediate with 76%</li>
+                        <li><span>2019-Current</span><br>Pursuing B.Tech from SRIMT in Computer science</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- -------------------------services-------------------------- -->
+
+   <div id="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I care deeply about creating world-class, useful, and beautiful products that help people and make a difference. I can be as involved in your project as you need me to be; from the seed of the idea, to sketches, creative direction, design, copywriting, system design, and even the front-end and WordPress build.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>As a UI UX designer, my name is sonu kumar and I am passionate about designing beautiful, intuitive interfaces that help people be more productive. I work with clients to create innovative and effective user interfaces that help them get the most out of their products.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Hii, This is sonu kumar and i'm too much passionate to design a beautiful app also and i always try to make an effective design of application which make an app more easier to use and i always try to make simple and beautiful design for the app!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- --------------------------------portfolioo---------------- -->
+
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="social_media.jpeg">
+                <div class="layer">
+                    <h3>Social Media Clone</h3>
+                    <p>Social media clone is basically a web development related practice project which is similar to the real one from the front-end part having same functionality and UI design</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="spotify.jpeg">
+                <div class="layer">
+                    <h3>Music App clone</h3>
+                    <p>Music app clone is also an web development related practice project which perform or having a design similar to the real one.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="online_shopping.jpeg">
+                <div class="layer">
+                    <h3>Online Shopping page clone</h3>
+                    <p>Basically Online shopping page clone is also an web development related practice project having similar design as the real one shopping pages looks like </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+   </div>
+
+   <!-- ---------------------------contact us----------------- -->
+
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <div class="sub-title">Contact Me</div>
+                <p><i class="fas fa-paper-plane"></i>sksonu6588@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>8957896305</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/sonukumar34"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="Resume.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Sonuu <i class="fas fa-heart"></i> Student of SRIMT, Lucknow</p>
+    </div>
+   </div>
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+
+   <script>
+        var sidemenu= document.getElementById("sidemenu");
+        function openmenu(){
+             sidemenu.style.right="0";
+        }
+        function closemenu(){
+             sidemenu.style.right="-200px";
+        }
+   </script>
+
+</body>
+</html>
